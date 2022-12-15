@@ -645,15 +645,15 @@
         selectElement = document.querySelector('#select1');
 		selectElement1 = document.querySelector('#select2');
 		if (selectElement.value=='Legendary') {
-			output = Math.floor(Math.random() * 7) + 1;
+			output = Math.floor(Math.random() * 3) + 1;
 			price=0.04*selectElement1.value;
 		}
 		if (selectElement.value=='Epic') {
-			output = Math.floor(Math.random() * (+16 - 8)) + 8;
+			output = Math.floor(Math.random() * (6 - 4)) + 4;
 			price=0.03*selectElement1.value;
 		}
         if (selectElement.value=='Rare') {
-			output = Math.floor(Math.random() * (+21 - 16)) + 16;
+			output = Math.floor(Math.random() * (8 - 5)) + 5;
 			price=(0.035*selectElement1.value).toFixed(3);
 		}
 		output1=selectElement1.value;
