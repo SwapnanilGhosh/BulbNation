@@ -9,7 +9,7 @@ for (let i = 0; i < 4; i++) {
     ipfsArray.push({
         path: `metadata/${paddedHex}.json`,
         content: {
-            image: `https://ipfs.moralis.io:2053/ipfs/QmdcceJG9gAxRqPNnjUiSDcJAcLJPczA9VCMnqEGzzt6cg/images/${paddedHex}.png`,
+            image: `https://ipfs.moralis.io:2053/ipfs/QmQzzfZpTG3Fu39WrwSrzC8u1atuABjkzrsvqUeZ3RDPwf/images/${paddedHex}.png`,
             name: `NFT #${i}`,
             description: "Testing"
         }
